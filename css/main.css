@@ -4,6 +4,12 @@
 body {
     background: #141414 !important;
     font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #242526;
+    width: 80%;
 }
 
 header .start {
@@ -77,8 +83,7 @@ header .about .btn-github {
 
 nav {
     margin: 0 auto;
-    width: 1200px;
-    background: black;
+    width: 100%;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -86,25 +91,29 @@ nav {
 }
 
 nav h2 {
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 25px;
 }
 
 nav input {
-    margin: 0 auto;
+    padding: 5px;
     padding-left: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-right: 100px;
+
     height: 30px;
     width: 350px;
-    background: #141414;
+
     border-radius: 5px;
-    border: 1px solid #141414;
-    outline: none;
+    border: 1px solid #242526;
+
     color: white;
-    position: absolute;
-    left: 25%;
+    background: #242526;
+
     transition: 0.2s;
+
+    font-size: 20px;
+
+    outline: none;
 }
 
 nav input:focus {
@@ -117,6 +126,7 @@ nav ul {
     float: right;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 50px;
 }
 
 nav li {
@@ -133,4 +143,27 @@ nav a {
 
 nav a:hover {
     color: silver;
+}
+
+.features {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.features h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#editor {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 300px;
+    width: 500px;
 }

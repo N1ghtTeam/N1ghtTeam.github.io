@@ -9,6 +9,16 @@
     </head>
     <body>
         <header>
+            <nav>
+                <h2>NF v1.0</h2>
+                <ul>
+                    <input type="text" placeholder="Search...">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#"><i class="fas fa-language"></i> Languages</a></li>
+                </ul>
+            </nav>
+
             <div class="start">
                 <img src="./images/logo.png" class="logo" alt="logo" height="500">
                 <div class="about">
@@ -18,17 +28,22 @@
                     <button class="btn-github"><i class="fab fa-github"></i> GITHUB</button>
                 </div>
             </div>
-
-            <nav>
-                <h2>NF v1.0</h2>
-                <input type="text" placeholder="Search...">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#"><i class="fas fa-language"></i> Languages</a></li>
-                </ul>
-            </nav>
-
         </header>
+
+        <hr/>
+
+        <div class="features">
+            <h1>Why choose NFramework ?</h1>
+        </div>
+
+        <hr/>
+
+        <div class="features">
+            <h1>Some demos</h1>
+            <div id="editor"></div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" charset="utf-8"></script>
+        <script src="scripts/editor.js" charset="utf-8"></script>
     </body>
 </html>

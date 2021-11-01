@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap');
+
+body {
+    background: #141414 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+header .start {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+}
+
+header .logo {
+    float: left;
+    pointer-events: none;
+}
+
+header .about {
+    padding-top: 100px;
+    text-align: left;
+}
+
+header .about h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+header .about p {
+    font-size: 25px;
+    color: white;
+}
+
+header .about .btn-started {
+    margin: 5px;
+
+    width: 250px;
+    height: 50px;
+
+    background: none;
+
+    color: white;
+
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: lighter;
+
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+header .about .btn-github i {
+    font-size: 30px;
+}
+
+header .about .btn-github {
+    margin: 5px;
+
+    width: 200px;
+    height: 50px;
+
+    background: white;
+
+    color: #141414;
+
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: lighter;
+
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+nav {
+    margin: 0 auto;
+    width: 1200px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+nav h2 {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+nav input {
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 30px;
+    width: 350px;
+    background: #141414;
+    border-radius: 5px;
+    border: 1px solid #141414;
+    outline: none;
+    color: white;
+    position: absolute;
+    left: 25%;
+    transition: 0.2s;
+}
+
+nav input:focus {
+    border-radius: 20px 0px 20px 0px;
+}
+
+nav ul {
+    position: absolute;
+    right: 0;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: silver;
+}

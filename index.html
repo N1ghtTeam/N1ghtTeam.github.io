@@ -6,11 +6,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <title>NFramework</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" charset="utf-8"></script>
     </head>
     <body>
         <header>
             <nav>
-                <h2>NF v1.0</h2>
+                <nav>
+
+                    <h2>NF</h2>
+                    <p id="header-framework-version">&nbsp;&nbsp;v1.0</p>
+
+                </nav>
                 <ul>
                     <input type="text" placeholder="Search...">
                     <li><a href="#">Home</a></li>
@@ -30,20 +36,77 @@
             </div>
         </header>
 
-        <hr/>
+        <div class="features" id="feature0">
 
-        <div class="features">
-            <h1>Why choose NFramework ?</h1>
+            <div>
+
+                <div>
+    
+                    <div>
+        
+                        <h2>NLC</h2>
+    
+                        <p>
+    
+                            NLC adds additional syntax to JavaScript to use in NFramework.
+    
+                        </p>
+        
+                    </div>
+        
+                    <div>
+        
+                        <h2>Globalize Modules</h2>
+    
+                        <p>
+    
+                            We build a module-based system that you can access all modules in your project without import them.
+    
+                        </p>
+                        
+                    </div>
+        
+                    <div>
+        
+                        <h2>Auto Import NLC Files</h2>
+    
+                        <p>
+    
+                            NLC adds additional syntax to JavaScript to use in NFramework.
+    
+                        </p>
+                        
+                    </div>
+    
+                </div>
+
+            </div>
+
+
         </div>
 
-        <hr/>
+        <div class="features" id="feature1">
 
-        <div class="features">
-            <h1>Some demos</h1>
+            <div class="left-editor">
+
+                <p>
+
+                    
+
+                </p>
+
+            </div>
+
             <div id="editor"></div>
+            <script src="scripts/editor.js" charset="utf-8"></script>
+
+            <div class="right-editor"></div>
+
+        </div>
+        
+
+        <div class="features">
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" charset="utf-8"></script>
-        <script src="scripts/editor.js" charset="utf-8"></script>
     </body>
 </html>

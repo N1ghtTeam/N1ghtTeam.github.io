@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap');
 
+@import url('header.css');
+@import url('footer.css');
+
 body {
     background: #141414 !important;
     font-family: 'Roboto', sans-serif !important;
@@ -12,146 +15,6 @@ body {
 hr {
     border: 1px solid #242526;
     width: 80%;
-}
-
-header {
-    margin: 0;
-    width:100vw;
-}
-
-.start {
-    margin: 0 auto;
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    flex-flow: row;
-}
-
-.logo {
-    float: left;
-    pointer-events: none;
-}
-
-.about {
-    padding-top: 100px;
-    text-align: left;
-}
-
-.about h1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-}
-
-.about p {
-    font-size: 25px;
-    color: white;
-}
-
-.about .btn-started {
-    margin: 5px;
-
-    width: 250px;
-    height: 50px;
-
-    background: none;
-
-    color: white;
-
-    font-size: 25px;
-    font-family: 'PT Sans', sans-serif !important;
-    font-weight: lighter;
-
-    border-radius: 5px;
-    border: 1px solid white;
-    cursor: pointer;
-}
-
-.about .btn-github i {
-    font-size: 30px;
-}
-
-.about .btn-github {
-    margin: 5px;
-
-    width: 200px;
-    height: 50px;
-
-    background: white;
-
-    color: #141414;
-
-    font-size: 25px;
-    font-family: 'PT Sans', sans-serif !important;
-    font-weight: lighter;
-
-    border-radius: 5px;
-    border: 1px solid white;
-    cursor: pointer;
-}
-
-nav {
-    margin: 0 auto;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-nav h2 {
-    margin-left: 50px;
-    font-size: 25px;
-}
-
-nav input {
-    padding: 5px;
-    padding-left: 20px;
-    margin-right: 100px;
-
-    height: 30px;
-    width: 350px;
-
-    border-radius: 5px;
-    border: 1px solid #242526;
-
-    color: white;
-    background: #242526;
-
-    transition: 0.2s;
-
-    font-size: 20px;
-
-    outline: none;
-}
-
-nav input:focus {
-    border-radius: 20px 0px 20px 0px;
-}
-
-nav ul {
-    position: absolute;
-    right: 0;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 50px;
-}
-
-nav li {
-    list-style-type: none;
-    margin-top: 5px;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-}
-
-nav a:hover {
-    color: silver;
 }
 
 .features {
@@ -231,7 +94,7 @@ nav a:hover {
     left: 0;
 
     height: 300px;
-    width: 45%;
+    width: 46%;
 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -285,19 +148,13 @@ nav a:hover {
 }
 
 .left-editor p {
-    color:rgb(150,150,150);
+    color: rgb(150,150,150);
     font-size: 20px;
     font-family: 'PT Sans', sans-serif !important;
 }
 
-#header-framework-version {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-}
-
 #feature1 {
-    width:calc(100vw - 35%);
+    width: calc(100vw - 35%);
     padding-left: 17%;
     padding-right: 17%;
     display: flex;

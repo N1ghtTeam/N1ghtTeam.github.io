@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap');
+
+@import url('header.css');
+@import url('footer.css');
+
+body {
+    background: #141414 !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.about-team {
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 500px;
+}
+
+.about-team h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.member {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 120px;
+    background: #242526;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.member img {
+    border-radius: 60%;
+}
+
+.member h2 {
+    color: white;
+    margin-left: 20px;
+}
+
+.member-body {
+    position: absolute;
+    top: 55%;
+    left: 26%;
+    color: rgb(150,150,150);
+    font-weight: bold;
+}
+
+.member-body a {
+    color: rgb(150,150,150);
+    text-decoration: none;
+}

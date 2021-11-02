@@ -20,4 +20,4 @@ editor.setValue(`
 
     </method>
 
-</module>`, -1);
+</module>`, 1);

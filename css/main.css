@@ -5,11 +5,17 @@ body {
     background: #141414 !important;
     font-family: 'Roboto', sans-serif !important;
     margin: 0;
+    padding:0;
 }
 
 hr {
     border: 1px solid #242526;
     width: 80%;
+}
+
+header {
+    margin: 0;
+    width:100%;
 }
 
 header .start {
@@ -147,15 +153,66 @@ nav a:hover {
 
 .features {
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
     position: relative;
     padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(10,10,10);
 }
 
 .features h1 {
     text-align: center;
     color: white;
     font-size: 40px;
+    margin: 0 auto;
+}
+
+#feature0 div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+
+}
+
+
+#feature0 div div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:70%;
+}
+
+#feature0 div div  div {
+    width: 30%;
+    display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+#feature0 div div  h2 {
+    color:rgb(240,240,240);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'PT Sans', sans-serif !important;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+
+#feature0 div div  p {
+    color:rgb(150,150,150);
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif !important;
+
+    padding:0;
+    margin: 0;
+    
 }
 
 #editor {
@@ -165,5 +222,64 @@ nav a:hover {
     left: 0;
 
     height: 300px;
-    width: 500px;
+    width: 35%;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.left-editor {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 300px;
+    width: calc(30% - 40px);
+
+    margin-right: 2%;
+    margin-left: 2%;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+
+    background-color: rgb(5,5,5);
+}
+
+.right-editor {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 300px;
+    width: 30%;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background-color: #242526;
+}
+
+.left-editor p {
+    color:rgb(150,150,150);
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+#header-framework-version{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#feature1{
+    width: calc(100vw - 25%);
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    flex-flow: row;
 }

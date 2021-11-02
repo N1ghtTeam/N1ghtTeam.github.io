@@ -9,7 +9,8 @@ editor.setOption('showLineNumbers', false);
 editor.renderer.setShowGutter(false);
 editor.session.setUseWorker(false)
 
-editor.setValue(`<module demo>
+editor.setValue(`
+<module demo>
 
     <method setup>
 

@@ -11,13 +11,13 @@ class Header extends HTMLElement{
                 <nav>
                     <nav>
 
-                        <h2 onclick="window.location.href='./index.html';">NFramework</h2>
+                        <h2 onclick="window.location.href=window.origin+'/index.html';">NFramework</h2>
                         <p id="header-framework-version">&nbsp;&nbsp;v1.0</p>
 
                     </nav>
                     <ul>
                         <input type="text" placeholder="Search...">
-                        <li><a  onclick="window.location.href='./docs.html';">Docs</a></li>
+                        <li><a  onclick="window.location.href=window.origin+'/docs.html';">Docs</a></li>
                         <li><a href="#">Team</a></li>
                         <li><a href="#"><i class="fas fa-language"></i> Languages</a></li>
                     </ul>

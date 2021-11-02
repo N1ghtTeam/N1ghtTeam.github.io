@@ -1,0 +1,50 @@
+{
+    "English": {
+        "Home": {
+            "What-is-NFramework": "What is NFramework ?",
+            "NFramework-is": "is a javascript framework for website developers, it's used to code both backend and frontend. It also has some other convenient features that other frameworks don't have.",
+            "GET-STARTED": "GET STARTED",
+
+            "Feature0-title": "NLC",
+            "Feature0-content": "NLC adds additional syntax to JavaScript to use in NFramework.",
+
+            "Feature1-title": "Globalize Modules",
+            "Feature1-content": "We have built a module-based system that you can access all modules in your project without import them.",
+
+            "Feature2-title": "Auto Import NLC Files",
+            "Feature2-content": "NFramework auto import all .NLC files in \"nlc\" folder.",
+
+            "Demo0": "NFramework implement modules-based system. You can create \"demo\" module and then create \"setup\" method inside.",
+            "Demo0-1": "When NFramework run, it will execute all \"setup\" method of modules."
+        },
+        "Team": {
+            "Header": "Meet our team",
+            "Founder": "Founder",
+            "Member": "Member"
+        }
+    },
+    "Vietnamese": {
+        "Home": {
+            "What-is-NFramework": "NFramework là gì ?",
+            "NFramework-is": "là một framework javascript linh hoạt được dùng để code frontend lẫn backend. Đồng thời còn có một số tính năng đặc biệt khác mà các framework khác không có.",
+            "GET-STARTED": "BẮT ĐẦU",
+
+            "Feature0-title": "NLC",
+            "Feature0-content": "NLC thêm cú pháp bổ sung vào JavaScript để sử dụng trong NFramework.",
+
+            "Feature1-title": "Modules toàn cục",
+            "Feature1-content": "Chúng tôi đã xây dựng một hệ thống dựa trên module mà bạn có thể truy cập tất cả các module trong dự án của mình mà không cần import.",
+
+            "Feature2-title": "Tự động import .NLC file",
+            "Feature2-content": "NFramework sẽ tự động import tất cả các file .NLC vào thư mục \"nlc\".",
+
+            "Demo0": "NFramework triển khai hệ thống dựa trên module. Bạn có thể tạo module \"demo\" và sau đó tạo phương thức \"setup\" bên trong.",
+            "Demo0-1": "Khi NFramework chạy, nó sẽ thực thi tất cả phương thức \"setup\" của các module."
+        },
+        "Team": {
+            "Header": "Cùng gặp team của chúng tôi",
+            "Founder": "Sáng lập",
+            "Member": "Thành Viên"
+        }
+    }
+}

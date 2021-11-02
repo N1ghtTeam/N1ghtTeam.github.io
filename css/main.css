@@ -17,6 +17,11 @@ hr {
     width: 80%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .features {
     margin: 0 auto;
     width: 1000px;

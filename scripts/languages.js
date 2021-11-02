@@ -24,7 +24,7 @@ function initAce() {
 }
 
 (async function() {
-    fetch("http://localhost:8000/Documents/NFramework.org/assets/languages.json")
+    fetch("./assets/languages.json")
     .then(res => res.json())
     .then((languages) => {
         if (!window.location.href.includes("docs.html") && !window.location.href.includes("team.html")) {

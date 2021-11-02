@@ -168,11 +168,19 @@ nav a:hover {
     margin: 0 auto;
 }
 
+#feature0{
+    width:100vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
 #feature0 div {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     text-align: center;
+    width:calc(100vw - 35%);
 }
 
 #feature0 div div {
@@ -181,7 +189,6 @@ nav a:hover {
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
-    width:70%;
 }
 
 #feature0 div div div {
@@ -288,7 +295,9 @@ nav a:hover {
 }
 
 #feature1 {
-    width: 1200px ;
+    width:calc(100vw - 35%);
+    padding-left: 17%;
+    padding-right: 17%;
     display: flex;
     flex-wrap: wrap;
 }

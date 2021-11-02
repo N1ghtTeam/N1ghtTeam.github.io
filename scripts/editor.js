@@ -6,13 +6,17 @@ editor.setTheme("ace/theme/tomorrow_night_eighties");
 editor.session.setMode("ace/mode/javascript");
 editor.setOptions({ fontSize:"15pt" });
 editor.setOption('showLineNumbers', false);
-
+editor.renderer.setShowGutter(false);
 editor.session.setUseWorker(false)
 
-editor.setValue(` <module demo>
-     <method setup>
-         function() {
-             console.log('Hello World!');
-         }
-     </method>
- </module>`, -1);
+editor.setValue(`<module demo>
+
+    <method setup>
+
+        function() {
+            console.log('Hello World!');
+        }
+
+    </method>
+
+</module>`, -1);

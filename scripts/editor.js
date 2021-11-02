@@ -8,6 +8,7 @@ editor.setOptions({ fontSize:"15pt" });
 editor.setOption('showLineNumbers', false);
 editor.renderer.setShowGutter(false);
 editor.session.setUseWorker(false)
+editor.setReadOnly(true);
 
 editor.setValue(`
 <module demo>

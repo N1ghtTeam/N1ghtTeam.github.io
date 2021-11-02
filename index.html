@@ -7,34 +7,24 @@
 
         <title>NFramework</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" charset="utf-8"></script>
+
+        <script src="scripts/header.js"></script>
+
     </head>
     <body>
-        <header>
-            <nav>
-                <nav>
-
-                    <h2>NFramework</h2>
-                    <p id="header-framework-version">&nbsp;&nbsp;v1.0</p>
-
-                </nav>
-                <ul>
-                    <input type="text" placeholder="Search...">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#"><i class="fas fa-language"></i> Languages</a></li>
-                </ul>
-            </nav>
-
-            <div class="start">
-                <img src="./images/logo.png" class="logo" alt="logo" height="500">
-                <div class="about">
-                    <h1>What is <i>NFramework</i> ?</h1>
-                    <p><i>NFramework</i> is a javascript framework for website developers, it's used to code both backend and frontend. It also has some other convenient features that other frameworks don't have.</p>
-                    <button class="btn-started"><i class="fas fa-play-circle" style="margin-right: 10px;"></i>GET STARTED</button>
-                    <button class="btn-github"><i class="fab fa-github"></i> GITHUB</button>
-                </div>
+        
+        <web-header>
+        </web-header>
+        
+        <div class="start">
+            <img src="./images/logo.png" class="logo" alt="logo" height="500">
+            <div class="about">
+                <h1>What is <i>NFramework</i> ?</h1>
+                <p><i>NFramework</i> is a javascript framework for website developers, it's used to code both backend and frontend. It also has some other convenient features that other frameworks don't have.</p>
+                <button class="btn-started"><i class="fas fa-play-circle" style="margin-right: 10px;"></i>GET STARTED</button>
+                <button class="btn-github"><i class="fab fa-github"></i> GITHUB</button>
             </div>
-        </header>
+        </div>
 
         <div style="width: 100%; background: rgb(10,10,10)">
             <div class="features" id="feature0">
@@ -57,7 +47,7 @@
                         <div>
                             <h2>Auto Import NLC Files</h2>
                             <p>
-                                NLC adds additional syntax to JavaScript to use in NFramework.
+                                NFramework auto import all nlc files in "nlc" folder.
                             </p>
                         </div>
                     </div>
@@ -66,7 +56,7 @@
 
             <div class="features" id="feature1">
                 <div class="left-editor">
-                    <p><b>NFramework</b> implement modules-based system. You can create "<b>demo</b>" module and then cretae "<b>setup</b>" method inside.</p>
+                    <p><b>NFramework</b> implement modules-based system. You can create "<b>demo</b>" module and then create "<b>setup</b>" method inside.</p>
                     <p>When <b>NFramework</b> run, it will execute all "<b>setup</b>" method of modules.</p>
                 </div>
                 <div id="editor"></div>

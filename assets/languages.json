@@ -12,7 +12,7 @@
             "Feature1-content": "We have built a module-based system that you can access all modules in your project without import them.",
 
             "Feature2-title": "Auto Import NLC Files",
-            "Feature2-content": "NFramework auto import all .NLC files in \"nlc\" folder.",
+            "Feature2-content": "NFramework will automatically import all .NLC files in the \"nlc\" folder.",
 
             "Demo0": "NFramework implement modules-based system. You can create \"demo\" module and then create \"setup\" method inside.",
             "Demo0-1": "When NFramework run, it will execute all \"setup\" method of modules."
@@ -36,7 +36,7 @@
             "Feature1-content": "Chúng tôi đã xây dựng một hệ thống dựa trên module mà bạn có thể truy cập tất cả các module trong dự án của mình mà không cần import.",
 
             "Feature2-title": "Tự động import .NLC file",
-            "Feature2-content": "NFramework sẽ tự động import tất cả các file .NLC vào thư mục \"nlc\".",
+            "Feature2-content": "NFramework sẽ tự động import tất cả các file .NLC trong thư mục \"nlc\".",
 
             "Demo0": "NFramework triển khai hệ thống dựa trên module. Bạn có thể tạo module \"demo\" và sau đó tạo phương thức \"setup\" bên trong.",
             "Demo0-1": "Khi NFramework chạy, nó sẽ thực thi tất cả phương thức \"setup\" của các module."

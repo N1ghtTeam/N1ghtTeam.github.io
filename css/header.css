@@ -9,6 +9,17 @@ header {
     justify-content: center;
 }
 
+.languages-popup {
+    width: 100px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+}
+
+.languages:hover .languages-popup {
+    display: block;
+}
+
 .start {
     margin: 0 auto;
     width: 1000px;

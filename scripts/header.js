@@ -1,5 +1,5 @@
 class Header extends HTMLElement {
-    constructor(){
+    constructor() {
         super();
     }
 
@@ -16,7 +16,15 @@ class Header extends HTMLElement {
                         <input type="text" placeholder="Search...">
                         <li><a href="docs.html">Docs</a></li>
                         <li><a href="team.html">Team</a></li>
-                        <li><a href="#">Languages</a><i class="fas fa-sort-down" style="margin-left: 5px; position: absolute; top: 10px;"></i></li>
+                        <div class="languages">
+                            <li><a href="#">Languages</a>
+                                <i class="fas fa-sort-down" style="margin-left: 5px; position: absolute; top: 10px;"></i>
+                            </li>
+                            <div class="languages-popup">
+                                <a href="#" onclick="localStorage.setItem('NF-language', 'English'); window.location.reload();">English</a><br/>
+                                <a href="#" onclick="localStorage.setItem('NF-language', 'Vietnamese'); window.location.reload();">Vietnamese</a><br/>
+                            </div>
+                        </div>
                     </ul>
                 </nav>
             </header>

@@ -12,7 +12,7 @@
             "Feature1-content": "We have built a module-based system that you can access all modules in your project without import them.",
 
             "Feature2-title": "Auto Import NLC Files",
-            "Feature2-content": "NFramework will automatically import all .NLC files in the \"nlc\" folder.",
+            "Feature2-content": "NFramework will automatically import all .nlc files in the \"nlc\" folder.",
 
             "Demo0": "NFramework implement modules-based system. You can create \"demo\" module and then create \"setup\" method inside.",
             "Demo0-1": "When NFramework run, it will execute all \"setup\" method of modules."

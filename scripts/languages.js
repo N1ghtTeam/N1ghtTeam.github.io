@@ -42,8 +42,10 @@ function initAce() {
                         <div class="about">
                             <h1><i>${lang['What-is-NFramework']}</i></h1>
                             <p><i>NFramework</i> ${lang['NFramework-is']}</p>
-                            <button class="btn-started"><a href="docs.html"><i class="fas fa-play-circle" style="margin-right: 10px;"></i>${lang['GET-STARTED']}</a></button>
-                            <button class="btn-github" onclick="window.open('https://github.com/N1ghtTeam/NFramework');"><i class="fab fa-github"></i> GITHUB</button>
+                            <div>
+                                <a class="btn-started" href="docs.html"><div class="fas fa-play-circle" style="margin-right: 10px;"></div><p>${lang['GET-STARTED']}</p></a>
+                                <a class="btn-github" onclick="window.open('https://github.com/N1ghtTeam/NFramework');"><div class="fab fa-github"></div> <p>GITHUB</p></a>
+                            </div>
                         </div>
                     </div>
 

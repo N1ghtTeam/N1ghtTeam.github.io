@@ -3,4 +3,14 @@ footer {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer p {
+    font-weight: normal;
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
